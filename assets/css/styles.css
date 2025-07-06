@@ -1,0 +1,66 @@
+body {
+    background-color:  rgb(36, 40, 44);
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header {
+    display: flex;
+    color: antiquewhite;
+    padding: 10px;
+    justify-content: center;
+}
+
+#barraBuscador {
+    display: flex;
+}
+
+#tarjetas {
+    margin: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+#containerTarjetas {
+    text-align: center;
+}
+
+.infoTarjetas {
+    display: inline-block;
+    margin: 8px;
+    color: aliceblue;
+    background-color: rgb(36, 40, 44);
+}
+
+#textID {
+    color: rgb(51, 171, 236);
+}
+
+#infobtns, .btnTipoStyle {
+    display: inline-block;
+    margin: 5px;
+    gap: 5px;
+}
+
+.btnVerMas {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+#modal {
+    background-color: rgba(25, 29, 32, 0.93);
+    color:aliceblue;
+    position: fixed;  /* Fijar el modal en la pantalla */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ajustarlo en el centro */
+    display: none;     /* Para que no se vea hasta presionar el botonverMas */
+    padding: 20px;
+    border-style: dashed;
+    border-color: rgb(0, 132, 255);
+    border-radius: 20px;
+}
