@@ -11,7 +11,7 @@ let revisados = [];
 async function fetchDataAndDisplay() {
 
     try {
-        const url = 'https://raw.githubusercontent.com/AlexandraPintoS/Proyecto-pokedex/main/pokemons.json';
+        const url = './assets/pokemons.json';
         const response = await fetch(url);
         console.log('Respuesta original de FETCH al leer el JSON: ', response);
         console.log('URL procesada: ', response.url);
